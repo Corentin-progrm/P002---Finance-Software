@@ -1,0 +1,30 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="AppBase.Views.ImportPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AppBase.Views"
+    xmlns:controls="using:CommunityToolkit.WinUI.UI.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <StackPanel Padding="20" Spacing="10">
+        <Button x:ConnectionId='2' Content="Ouvrir un fichier Excel"                        />
+        <Button x:ConnectionId='3' Content="Enregistrer"                        />
+        <controls:DataGrid x:ConnectionId='4' x:Name="DataGridExcel" AutoGenerateColumns="False"                                            >
+            <controls:DataGrid.Columns>
+                <controls:DataGridTextColumn Header="Date" Binding="{Binding Date}" />
+                <controls:DataGridTextColumn Header="Prix" Binding="{Binding Prix}" />
+                <controls:DataGridTextColumn Header="Description" Binding="{Binding Description}" />
+                <controls:DataGridTextColumn Header="Personne" Binding="{Binding Personne}" />
+                <controls:DataGridComboBoxColumn x:ConnectionId='5' Header="Cat�gorie"
+                                  Binding="{Binding Categorie, Mode=TwoWay}"
+                                                                    />
+
+            </controls:DataGrid.Columns>
+        </controls:DataGrid>
+
+    </StackPanel>
+
+</Page>
+

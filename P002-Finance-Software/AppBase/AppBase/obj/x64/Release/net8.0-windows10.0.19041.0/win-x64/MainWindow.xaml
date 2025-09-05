@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Window
+    x:Class="AppBase.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AppBase"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Title="AppBase">
+
+    <NavigationView x:ConnectionId='2'
+        x:Name="NavView"
+        PaneDisplayMode="Left"
+        IsBackButtonVisible="Collapsed"
+                                         >
+
+        <NavigationView.MenuItems>
+            <NavigationViewItem Content="Page 1" Tag="page1" Icon="GoToStart"/>
+            <NavigationViewItem Content="Page 2" Tag="ImportPage" Icon="Document"/>
+            <NavigationViewItem Content="Page 3" Tag="page3" Icon="Contact"/>
+            <NavigationViewItem Content="Page 4" Tag="page4" Icon="Calendar"/>
+            <NavigationViewItem Content="Page 5" Tag="page5" Icon="Setting"/>
+        </NavigationView.MenuItems>
+
+        <Frame x:ConnectionId='3' x:Name="ContentFrame"/>
+    </NavigationView>
+</Window>
+

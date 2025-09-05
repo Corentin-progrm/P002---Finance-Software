@@ -17,7 +17,7 @@
 
         <NavigationView.MenuItems>
             <NavigationViewItem Content="Page 1" Tag="page1" Icon="GoToStart"/>
-            <NavigationViewItem Content="Page 2" Tag="page2" Icon="Document"/>
+            <NavigationViewItem Content="Page 2" Tag="ImportPage" Icon="Document"/>
             <NavigationViewItem Content="Page 3" Tag="page3" Icon="Contact"/>
             <NavigationViewItem Content="Page 4" Tag="page4" Icon="Calendar"/>
             <NavigationViewItem Content="Page 5" Tag="page5" Icon="Setting"/>

@@ -1,7 +1,8 @@
 App.xbf
 MainWindow.xbf
+Views\ImportPage.xbf
 Views\Page1.xbf
-Views\Page2.xbf
 Views\Page3.xbf
 Views\Page4.xbf
 Views\Page5.xbf
+Views\SettingsPage.xbf

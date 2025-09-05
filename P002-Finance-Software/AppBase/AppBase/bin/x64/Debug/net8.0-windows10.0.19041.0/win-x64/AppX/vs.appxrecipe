@@ -10,15 +10,15 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>d4f25b05-a1e8-4e3b-8e3b-068b6eba67e7</PackageIdentityName>
     <PackageIdentityPublisher>CN=corentin</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\coren\Downloads\AppBase\AppBase\AppBase\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\</IntermediateOutputPath>
+    <IntermediateOutputPath>E:\P002 - Finance Software\P002-Finance-Software\AppBase\AppBase\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\coren\Downloads\AppBase\AppBase\AppBase\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppX</LayoutDir>
-    <RegisteredManifestChecksum>877FADFE7CE8E48D8FEC95964763E306B191C32ED113B12962C55F8D7ACE9FAA</RegisteredManifestChecksum>
+    <LayoutDir>E:\P002 - Finance Software\P002-Finance-Software\AppBase\AppBase\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppX</LayoutDir>
+    <RegisteredManifestChecksum>71D63DE95C2A22DF12238F1902E4518BCA661BF3341D54834F0FBF1F2070F7B2</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>d4f25b05-a1e8-4e3b-8e3b-068b6eba67e7_1.0.0.0_x64__bnht5h0e3c2k2</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>d4f25b05-a1e8-4e3b-8e3b-068b6eba67e7_bnht5h0e3c2k2!App</RegisteredUserModeAppID>
     <RegisteredPackageID>d4f25b05-a1e8-4e3b-8e3b-068b6eba67e7</RegisteredPackageID>
@@ -26,28 +26,28 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\coren\Downloads\AppBase\AppBase\AppBase\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppxManifest.xml">
+    <AppXManifest Include="E:\P002 - Finance Software\P002-Finance-Software\AppBase\AppBase\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-09-02T17:33:23.860</Modified>
+      <Modified>2025-09-05T21:23:36.483</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\coren\Downloads\AppBase\AppBase\AppBase\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\resources.pri">
+    <AppxPackagedFile Include="E:\P002 - Finance Software\P002-Finance-Software\AppBase\AppBase\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-09-02T17:33:23.510</Modified>
+      <Modified>2025-09-05T21:23:36.135</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\coren\Downloads\AppBase\AppBase\AppBase\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppBase.runtimeconfig.json">
+    <AppxPackagedFile Include="E:\P002 - Finance Software\P002-Finance-Software\AppBase\AppBase\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppBase.runtimeconfig.json">
       <PackagePath>AppBase.runtimeconfig.json</PackagePath>
-      <Modified>2025-09-02T17:33:23.172</Modified>
+      <Modified>2025-09-05T21:04:27.735</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\coren\Downloads\AppBase\AppBase\AppBase\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppBase.dll">
+    <AppxPackagedFile Include="E:\P002 - Finance Software\P002-Finance-Software\AppBase\AppBase\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppBase.dll">
       <PackagePath>AppBase.dll</PackagePath>
-      <Modified>2025-09-02T17:33:22.489</Modified>
+      <Modified>2025-09-05T21:23:35.704</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\coren\Downloads\AppBase\AppBase\AppBase\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\apphost.exe">
+    <AppxPackagedFile Include="E:\P002 - Finance Software\P002-Finance-Software\AppBase\AppBase\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\apphost.exe">
       <PackagePath>AppBase.exe</PackagePath>
-      <Modified>2025-09-02T17:33:22.557</Modified>
+      <Modified>2025-09-05T21:23:35.752</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\coren\.nuget\packages\microsoft.netcore.app.runtime.win-x64\8.0.18\runtimes\win-x64\lib\net8.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -785,6 +785,30 @@
       <PackagePath>WinRT.Runtime.dll</PackagePath>
       <Modified>2024-11-11T17:23:04.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\coren\.nuget\packages\closedxml\0.105.0\lib\netstandard2.1\ClosedXML.dll">
+      <PackagePath>ClosedXML.dll</PackagePath>
+      <Modified>2025-05-14T20:51:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\coren\.nuget\packages\closedxml.parser\2.0.0\lib\netstandard2.1\ClosedXML.Parser.dll">
+      <PackagePath>ClosedXML.Parser.dll</PackagePath>
+      <Modified>2025-04-03T23:11:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\coren\.nuget\packages\communitytoolkit.winui.ui.controls.datagrid\7.1.2\lib\net5.0-windows10.0.18362\CommunityToolkit.WinUI.UI.Controls.DataGrid.dll">
+      <PackagePath>CommunityToolkit.WinUI.UI.Controls.DataGrid.dll</PackagePath>
+      <Modified>2021-11-18T21:56:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\coren\.nuget\packages\documentformat.openxml\3.3.0\lib\net8.0\DocumentFormat.OpenXml.dll">
+      <PackagePath>DocumentFormat.OpenXml.dll</PackagePath>
+      <Modified>2025-03-05T21:55:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\coren\.nuget\packages\documentformat.openxml.framework\3.3.0\lib\net8.0\DocumentFormat.OpenXml.Framework.dll">
+      <PackagePath>DocumentFormat.OpenXml.Framework.dll</PackagePath>
+      <Modified>2025-03-05T21:55:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\coren\.nuget\packages\excelnumberformat\1.1.0\lib\netstandard2.0\ExcelNumberFormat.dll">
+      <PackagePath>ExcelNumberFormat.dll</PackagePath>
+      <Modified>2020-10-02T08:42:28.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\coren\.nuget\packages\microsoft.windowsappsdk\1.7.250606001\lib\net6.0-windows10.0.18362.0\Microsoft.Graphics.Imaging.Projection.dll">
       <PackagePath>Microsoft.Graphics.Imaging.Projection.dll</PackagePath>
       <Modified>2025-05-13T21:41:02.000</Modified>
@@ -885,6 +909,18 @@
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
       <Modified>2025-06-05T21:50:10.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\coren\.nuget\packages\rbush.signed\4.0.0\lib\net8.0\RBush.dll">
+      <PackagePath>RBush.dll</PackagePath>
+      <Modified>2024-11-18T15:48:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\coren\.nuget\packages\sixlabors.fonts\1.0.0\lib\netcoreapp3.1\SixLabors.Fonts.dll">
+      <PackagePath>SixLabors.Fonts.dll</PackagePath>
+      <Modified>2023-08-11T12:04:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\coren\.nuget\packages\system.io.packaging\8.0.1\lib\net8.0\System.IO.Packaging.dll">
+      <PackagePath>System.IO.Packaging.dll</PackagePath>
+      <Modified>2024-09-16T23:09:52.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\coren\.nuget\packages\microsoft.web.webview2\1.0.2903.40\runtimes\win-x64\native\WebView2Loader.dll">
       <PackagePath>WebView2Loader.dll</PackagePath>
       <Modified>2024-11-10T08:57:38.000</Modified>
@@ -905,37 +941,41 @@
       <PackagePath>Microsoft.Web.WebView2.Core.Projection.dll</PackagePath>
       <Modified>2024-11-10T08:57:50.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\coren\Downloads\AppBase\AppBase\AppBase\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppBase.deps.json">
+    <AppxPackagedFile Include="E:\P002 - Finance Software\P002-Finance-Software\AppBase\AppBase\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppBase.deps.json">
       <PackagePath>AppBase.deps.json</PackagePath>
-      <Modified>2025-09-02T17:33:23.122</Modified>
+      <Modified>2025-09-05T21:14:40.255</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\coren\Downloads\AppBase\AppBase\AppBase\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\coren\.nuget\packages\communitytoolkit.winui.ui.controls.datagrid\7.1.2\lib\net5.0-windows10.0.18362\CommunityToolkit.WinUI.UI.Controls.DataGrid.pri">
+      <PackagePath>CommunityToolkit.WinUI.UI.Controls.DataGrid.pri</PackagePath>
+      <Modified>2021-11-18T21:49:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\P002 - Finance Software\P002-Finance-Software\AppBase\AppBase\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2025-09-02T17:32:28.341</Modified>
+      <Modified>2025-09-04T15:34:06.994</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\coren\Downloads\AppBase\AppBase\AppBase\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="E:\P002 - Finance Software\P002-Finance-Software\AppBase\AppBase\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
-      <Modified>2025-09-02T17:32:28.343</Modified>
+      <Modified>2025-09-04T15:34:06.994</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\coren\Downloads\AppBase\AppBase\AppBase\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="E:\P002 - Finance Software\P002-Finance-Software\AppBase\AppBase\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
-      <Modified>2025-09-02T17:32:28.346</Modified>
+      <Modified>2025-09-04T15:34:06.994</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\coren\Downloads\AppBase\AppBase\AppBase\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="E:\P002 - Finance Software\P002-Finance-Software\AppBase\AppBase\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
-      <Modified>2025-09-02T17:32:28.350</Modified>
+      <Modified>2025-09-04T15:34:06.994</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\coren\Downloads\AppBase\AppBase\AppBase\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="E:\P002 - Finance Software\P002-Finance-Software\AppBase\AppBase\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
-      <Modified>2025-09-02T17:32:28.353</Modified>
+      <Modified>2025-09-04T15:34:06.994</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\coren\Downloads\AppBase\AppBase\AppBase\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="E:\P002 - Finance Software\P002-Finance-Software\AppBase\AppBase\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
-      <Modified>2025-09-02T17:32:28.356</Modified>
+      <Modified>2025-09-04T15:34:06.994</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\coren\Downloads\AppBase\AppBase\AppBase\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="E:\P002 - Finance Software\P002-Finance-Software\AppBase\AppBase\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
-      <Modified>2025-09-02T17:32:28.356</Modified>
+      <Modified>2025-09-04T15:34:06.994</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

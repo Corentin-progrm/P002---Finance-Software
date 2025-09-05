@@ -1,3 +1,4 @@
+using AppBase.Views;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 using Microsoft.UI.Xaml.Controls.Primitives;
@@ -13,10 +14,12 @@ using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Devices.Enumeration;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
-using AppBase.Views;
+using Windows.UI.ApplicationSettings;
 
-// To learn more about WinUI, the WinUI project structure,
-// and more about our project templates, see: http://aka.ms/winui-project-info.
+// Si un jour tu as cette merde d'erreur
+// 'SettingsPage' does not contain a definition for 'InitializeComponent' and no accessible extension method 'InitializeComponent' accepting a first argument of type
+// SettingsPage' could be found (are you missing a using directive or an assembly reference?)
+// il suffit d'aller dans les propriete du fichier xaml et de mettre build action : Page
 
 namespace AppBase
 {
@@ -28,8 +31,18 @@ namespace AppBase
             ContentFrame.Navigate(typeof(Page1));
         }
 
+
+
         private void NavView_ItemInvoked(NavigationView sender, NavigationViewItemInvokedEventArgs args)
         {
+
+            if (args.IsSettingsInvoked)
+            {
+                // Clic sur le bouton Settings en bas
+                ContentFrame.Navigate(typeof(SettingsPage));
+                return;
+            }
+
             if (args.InvokedItemContainer is NavigationViewItem item)
             {
                 switch (item.Tag)
@@ -37,8 +50,8 @@ namespace AppBase
                     case "page1":
                         ContentFrame.Navigate(typeof(Page1));
                         break;
-                    case "page2":
-                        ContentFrame.Navigate(typeof(Page2));
+                    case "ImportPage":
+                        ContentFrame.Navigate(typeof(ImportPage));
                         break;
                     case "page3":
                         ContentFrame.Navigate(typeof(Page3));
