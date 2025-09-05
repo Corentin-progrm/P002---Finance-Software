@@ -21,7 +21,6 @@ namespace AppBase.Models
         public string Impact { get; set; } = "NO DATA";
         public string MontantDoc { get; set; } = "NO DATA";
         public string Categorie { get; set; } = "NO DATA";
-        public string SousCategorie { get; set; } = "NO DATA";
 
     }
 }

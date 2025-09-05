@@ -127,13 +127,24 @@ namespace AppBase.Views
                 {
                     Donnees.Add(new ModelLignesDepenses
                     {
-                        Date = row.Cell(1).GetValue<string>(),
-                        Prix = row.Cell(2).GetValue<string>(),
-                        Description = row.Cell(3).GetValue<string>(),
-                        Personne = row.Cell(4).GetValue<string>(),
+                        TypeDeMontant = row.Cell(1).GetValue<string>(),
+                        DateReport = row.Cell(2).GetValue<string>(),
+                        // Document = row.Cell(3).GetValue<string>(),
+                        Type = row.Cell(4).GetValue<string>(),
+                        DescEntiteExterne = row.Cell(5).GetValue<string>(),
+                        // EntiteExterne = row.Cell(6).GetValue<string>(),
+                        // Reference = row.Cell(7).GetValue<string>(),
+                        Description = row.Cell(8).GetValue<string>(),
+                        Date = row.Cell(9).GetValue<string>(),
+                        UBR = row.Cell(10).GetValue<string>(),
+                        Impact = row.Cell(11).GetValue<string>(),
+                        MontantDoc = row.Cell(12).GetValue<string>(),
+
                     });
                 }
             }
         }
     }
 }
+
+

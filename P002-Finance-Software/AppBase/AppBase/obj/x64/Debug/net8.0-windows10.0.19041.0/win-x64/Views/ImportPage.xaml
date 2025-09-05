@@ -14,13 +14,20 @@
         
         <controls:DataGrid x:ConnectionId='4' x:Name="DataGridExcel" AutoGenerateColumns="False"                                            >
             <controls:DataGrid.Columns>
-                <controls:DataGridTextColumn Header="Date" Binding="{Binding Date}" />
-                <controls:DataGridTextColumn Header="Prix" Binding="{Binding Prix}" />
-                <controls:DataGridTextColumn Header="Description" Binding="{Binding Description}" />
-                <controls:DataGridTextColumn Header="Personne" Binding="{Binding Personne}" />
-                <controls:DataGridComboBoxColumn x:ConnectionId='5' Header="Categorie"
-                                  Binding="{Binding Categorie, Mode=TwoWay}"
-                                                                    />
+
+                <controls:DataGridTextColumn Header="TypeDeMontant" Binding="{Binding TypeDeMontant}" Width="60" />
+                <controls:DataGridTextColumn Header="DateReport" Binding="{Binding DateReport}" Width="100" />
+                <!-- <controls:DataGridTextColumn Header="Document" Binding="{Binding Document}" Width="150" /> -->
+                <controls:DataGridTextColumn Header="Type" Binding="{Binding Type}" Width="150" />
+                <controls:DataGridTextColumn Header="DescEntiteExterne" Binding="{Binding DescEntiteExterne}" Width="150" />
+                <!-- <controls:DataGridTextColumn Header="EntiteExterne" Binding="{Binding EntiteExterne}" Width="150" /> -->
+                <!-- <controls:DataGridTextColumn Header="Reference" Binding="{Binding Reference}" Width="150" /> -->
+                <controls:DataGridTextColumn Header="Description" Binding="{Binding Description}" Width="150" />
+                <controls:DataGridTextColumn Header="Date" Binding="{Binding Date}" Width="100" />
+                <controls:DataGridTextColumn Header="UBR" Binding="{Binding UBR}" Width="150" />
+                <controls:DataGridTextColumn Header="Impact" Binding="{Binding Impact}" Width="100" />
+                <controls:DataGridTextColumn Header="MontantDoc" Binding="{Binding MontantDoc}" Width="100" />
+                <controls:DataGridComboBoxColumn x:ConnectionId='5' Header="Categorie" Binding="{Binding Categorie, Mode=TwoWay}"                                   Width="150" />
 
             </controls:DataGrid.Columns>
         </controls:DataGrid>

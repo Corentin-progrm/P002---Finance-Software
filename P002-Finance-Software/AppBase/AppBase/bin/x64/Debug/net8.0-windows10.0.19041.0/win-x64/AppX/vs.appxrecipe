@@ -29,13 +29,13 @@
     <AppXManifest Include="E:\P002 - Finance Software\P002-Finance-Software\AppBase\AppBase\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-09-05T21:32:45.537</Modified>
+      <Modified>2025-09-05T23:20:10.304</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="E:\P002 - Finance Software\P002-Finance-Software\AppBase\AppBase\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-09-05T21:32:45.187</Modified>
+      <Modified>2025-09-05T23:20:10.035</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\P002 - Finance Software\P002-Finance-Software\AppBase\AppBase\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppBase.runtimeconfig.json">
       <PackagePath>AppBase.runtimeconfig.json</PackagePath>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\P002 - Finance Software\P002-Finance-Software\AppBase\AppBase\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppBase.dll">
       <PackagePath>AppBase.dll</PackagePath>
-      <Modified>2025-09-05T21:32:44.807</Modified>
+      <Modified>2025-09-05T23:20:09.925</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\P002 - Finance Software\P002-Finance-Software\AppBase\AppBase\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\apphost.exe">
       <PackagePath>AppBase.exe</PackagePath>
-      <Modified>2025-09-05T21:32:44.855</Modified>
+      <Modified>2025-09-05T23:20:09.929</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\coren\.nuget\packages\microsoft.netcore.app.runtime.win-x64\8.0.18\runtimes\win-x64\lib\net8.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
