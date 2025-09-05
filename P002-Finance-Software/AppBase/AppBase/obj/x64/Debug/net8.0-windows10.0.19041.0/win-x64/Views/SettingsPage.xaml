@@ -7,7 +7,7 @@
     mc:Ignorable="d">
 
     <StackPanel Padding="20" Spacing="10">
-        <TextBlock Text="Dossier pour sauvegarder le fichier JSON:"/>
+        <TextBlock Text="Dossier pour sauvegarder les fichier Data:"/>
         <TextBox x:ConnectionId='2' x:Name="FolderPathTextBox" IsReadOnly="True"/>
         <Button x:ConnectionId='3' Content="Choisir un dossier"                            />
     </StackPanel>

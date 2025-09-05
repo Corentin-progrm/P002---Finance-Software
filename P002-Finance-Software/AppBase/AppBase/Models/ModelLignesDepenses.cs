@@ -8,11 +8,20 @@ namespace AppBase.Models
 {
     public class ModelLignesDepenses
     {
-        public string Date { get; set; } = "NO DATA";
-        public string Prix { get; set; } = "NO DATA";
+        public string TypeDeMontant { get; set; } = "NO DATA";
+        public string DateReport { get; set; } = "NO DATA";
+        public string Document { get; set; } = "NO DATA";
+        public string Type { get; set; } = "NO DATA";
+        public string DescEntiteExterne { get; set; } = "NO DATA";
+        public string EntiteExterne { get; set; } = "NO DATA";
+        public string Reference { get; set; } = "NO DATA";
         public string Description { get; set; } = "NO DATA";
-        public string Personne { get; set; } = "NO DATA";
-        public string Categorie { get; set; } = "NO DATA"; // Valeur par défaut
+        public string Date { get; set; } = "NO DATA";
+        public string UBR { get; set; } = "NO DATA";
+        public string Impact { get; set; } = "NO DATA";
+        public string MontantDoc { get; set; } = "NO DATA";
+        public string Categorie { get; set; } = "NO DATA";
+        public string SousCategorie { get; set; } = "NO DATA";
 
     }
 }

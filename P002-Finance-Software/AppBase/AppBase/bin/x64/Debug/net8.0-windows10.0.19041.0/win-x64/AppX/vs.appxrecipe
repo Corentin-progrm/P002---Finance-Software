@@ -29,25 +29,25 @@
     <AppXManifest Include="E:\P002 - Finance Software\P002-Finance-Software\AppBase\AppBase\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-09-05T21:23:36.483</Modified>
+      <Modified>2025-09-05T21:32:45.537</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="E:\P002 - Finance Software\P002-Finance-Software\AppBase\AppBase\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-09-05T21:23:36.135</Modified>
+      <Modified>2025-09-05T21:32:45.187</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\P002 - Finance Software\P002-Finance-Software\AppBase\AppBase\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppBase.runtimeconfig.json">
       <PackagePath>AppBase.runtimeconfig.json</PackagePath>
-      <Modified>2025-09-05T21:04:27.735</Modified>
+      <Modified>2025-09-05T21:24:59.767</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\P002 - Finance Software\P002-Finance-Software\AppBase\AppBase\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppBase.dll">
       <PackagePath>AppBase.dll</PackagePath>
-      <Modified>2025-09-05T21:23:35.704</Modified>
+      <Modified>2025-09-05T21:32:44.807</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\P002 - Finance Software\P002-Finance-Software\AppBase\AppBase\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\apphost.exe">
       <PackagePath>AppBase.exe</PackagePath>
-      <Modified>2025-09-05T21:23:35.752</Modified>
+      <Modified>2025-09-05T21:32:44.855</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\coren\.nuget\packages\microsoft.netcore.app.runtime.win-x64\8.0.18\runtimes\win-x64\lib\net8.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -943,7 +943,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\P002 - Finance Software\P002-Finance-Software\AppBase\AppBase\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppBase.deps.json">
       <PackagePath>AppBase.deps.json</PackagePath>
-      <Modified>2025-09-05T21:14:40.255</Modified>
+      <Modified>2025-09-05T21:24:59.751</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\coren\.nuget\packages\communitytoolkit.winui.ui.controls.datagrid\7.1.2\lib\net5.0-windows10.0.18362\CommunityToolkit.WinUI.UI.Controls.DataGrid.pri">
       <PackagePath>CommunityToolkit.WinUI.UI.Controls.DataGrid.pri</PackagePath>

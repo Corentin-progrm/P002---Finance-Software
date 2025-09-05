@@ -18,7 +18,7 @@ namespace AppBase.Views
             this.InitializeComponent();
             // Charger le chemin du dossier si défini
             var localSettings = ApplicationData.Current.LocalSettings;
-            FolderPathTextBox.Text = localSettings.Values["DossierJson"] as string ?? "Aucun dossier défini";
+            FolderPathTextBox.Text = localSettings.Values["DataFolder"] as string ?? "Aucun dossier défini";
         }
 
         private async void OnChooseFolderClick(object sender, RoutedEventArgs e)
@@ -31,7 +31,7 @@ namespace AppBase.Views
             if (folder != null)
             {
                 FolderPathTextBox.Text = folder.Path;
-                ApplicationData.Current.LocalSettings.Values["DossierJson"] = folder.Path;
+                ApplicationData.Current.LocalSettings.Values["DataFolder"] = folder.Path;
             }
         }
     }

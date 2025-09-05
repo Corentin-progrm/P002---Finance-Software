@@ -43,12 +43,38 @@ namespace AppBase.Views
                 return;
             }
 
-            // On définit le fichier JSON unique dans le dossier local de l'app
-            StorageFile file = await ApplicationData.Current.LocalFolder.CreateFileAsync(
-                "donnees.json", CreationCollisionOption.OpenIfExists);
+            // Récupérer le chemin du dossier depuis les settings
+            var localSettings = ApplicationData.Current.LocalSettings;
+            string folderPath = localSettings.Values["DataFolder"] as string;
+
+            StorageFolder folder;
+            if (string.IsNullOrEmpty(folderPath) || !Directory.Exists(folderPath))
+            {
+                // Si pas de dossier défini, demander à l'utilisateur
+                var picker = new FolderPicker();
+                var hwnd = WindowNative.GetWindowHandle(App.MainWindowInstance);
+                InitializeWithWindow.Initialize(picker, hwnd);
+
+                var pickedFolder = await picker.PickSingleFolderAsync();
+                if (pickedFolder == null)
+                {
+                    return; // L'utilisateur a annulé
+                }
+                folder = pickedFolder;
+
+                // Sauvegarder le chemin choisi dans les settings
+                localSettings.Values["DataFolder"] = folder.Path;
+            }
+            else
+            {
+                folder = await StorageFolder.GetFolderFromPathAsync(folderPath);
+            }
+
+            // Créer ou ouvrir le fichier JSON
+            StorageFile file = await folder.CreateFileAsync(
+                "import.json", CreationCollisionOption.OpenIfExists);
 
             List<ModelLignesDepenses> anciennesDonnees = new();
-
             try
             {
                 string jsonContent = await FileIO.ReadTextAsync(file);
@@ -56,14 +82,11 @@ namespace AppBase.Views
             }
             catch
             {
-                // Si le fichier est vide ou corrompu
                 anciennesDonnees = new();
             }
 
-            // Fusionner les anciennes + nouvelles données
             anciennesDonnees.AddRange(Donnees);
 
-            // Sauvegarder le fichier mis à jour
             string newJson = JsonSerializer.Serialize(anciennesDonnees, new JsonSerializerOptions
             {
                 WriteIndented = true
@@ -80,7 +103,6 @@ namespace AppBase.Views
             };
             await successDialog.ShowAsync();
         }
-
 
 
         private async void OnOpenFileClick(object sender, RoutedEventArgs e)
